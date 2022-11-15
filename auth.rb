@@ -1,7 +1,7 @@
 require 'bcrypt'
 
 def create_hash_digest(password)
-  BCrypt::Password.create(Password)
+  BCrypt::Password.create(password)
 end
 
 my_password = BCrypt::Password.create("my password")
