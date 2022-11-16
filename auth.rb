@@ -18,6 +18,6 @@ end
 
 def create_secure_users(list_of_users)
   list_of_users.each do |user_record|
-    
+    puts user_record[:pasword]
   end
 end
